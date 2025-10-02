@@ -33,7 +33,7 @@
     padding: 5rem 6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #292929;
+    background-color: var(--white);
     .imageMobile {
       display: none;
     }
@@ -59,15 +59,34 @@
       padding: 1rem;
       h2 {
         font-size: 22pt;
-        font-weight: 300;
         text-align: center;
-        color: var(--black);
       }
       p {
         text-align: center;
-        font-weight: 300;
-        color: var(--black);
         font-size: 13pt;
+      }
+    }
+  }
+}
+
+@media (min-width: 843px) {
+  .containerLeader {
+    padding: 5rem 12rem;
+    .imageDesktop {
+      width: 100vh;
+    }
+    .cardLeaderInfo {
+      width: 100%;
+      min-width: 500px;
+      height: 300px;
+      left: 68%;
+      h2 {
+        font-size: 30pt;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        font-size: 16pt;
       }
     }
   }
