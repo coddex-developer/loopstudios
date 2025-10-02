@@ -1,28 +1,28 @@
 .containerLeader {
-    padding: 5rem 3rem;
-    .imageMobile {
-        width: 100%;
+  padding: 5rem 2rem;
+  .imageMobile {
+    width: 100%;
+  }
+  .imageDesktop {
+    display: none;
+  }
+  .cardLeaderInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    font-family: var(--josefin-sans-font);
+    h2 {
+      font-size: 30pt;
+      font-weight: 300;
+      text-align: center;
+      color: var(--black);
     }
-    .imageDesktop {
-        display: none;
+    p {
+      text-align: center;
+      font-weight: 300;
+      color: var(--black);
+      font-size: 16pt;
     }
-    .cardLeaderInfo {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-        margin-top: 3rem;
-        font-family: var(--josefin-sans-font);
-        h2 {
-            font-size: 30pt;
-            font-weight: 300;
-            text-align: center;
-            color: var(--black);
-        }
-        p{
-            text-align: center;
-            font-weight: 300;
-            color: var(--black);
-            font-size: 16pt;
-        }
-    }
+  }
 }
