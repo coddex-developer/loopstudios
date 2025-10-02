@@ -4,7 +4,8 @@ function LeaderComponent() {
     return (
         <>
             <div className="containerLeader">
-                <img src="" alt="" />
+                <img src="/images/mobile/image-interactive.jpg" className="imageMobile" alt="" />
+                <img src="/images/desktop/image-interactive.jpg" className="imageDesktop" alt="" />
                 <div className="cardLeaderInfo">
                     <h2>
                         THE LEADER IN INTERACTIVE VR

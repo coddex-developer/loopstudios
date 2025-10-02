@@ -25,9 +25,12 @@
 }
 
 @media(max-width: 492px) {
+  .mainContainer {
+    padding: 1rem 2rem;
+  }
     .banner {
         h1 {
-            font-size: 20pt;
+            font-size: 30pt;
         }
     }
 }
